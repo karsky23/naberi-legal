@@ -1,14 +1,12 @@
-ГОТОВАЯ ПОЛИТИКА NABERI
+ЗАГРУЗКА В GITHUB
 
-2. Загрузите index.html, delete-account.html и styles.css в публичный GitHub-репозиторий.
-
-3. Включите GitHub Pages:
-   Settings → Pages → Deploy from a branch → main → /root
-
-4. В Google Play в поле политики вставьте адрес вида:
-   https://ВАШ_GITHUB.github.io/ИМЯ_РЕПОЗИТОРИЯ/
-
-5. Для удаления аккаунта используйте:
-   https://ВАШ_GITHUB.github.io/ИМЯ_РЕПОЗИТОРИЯ/delete-account.html
-
-Дата документа: 2 августа 2026 года
+1. Распакуйте архив.
+2. В репозитории naberi-legal нажмите Add file → Upload files.
+3. Загрузите ВСЁ содержимое папки naberi-legal-multilang:
+   index.html
+   styles.css
+   delete-account.html
+   папки ru, kk, en, uk, uz
+4. Подтвердите замену существующих файлов и нажмите Commit changes.
+5. Через 1-2 минуты откройте:
+   https://karsky23.github.io/naberi-legal/

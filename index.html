@@ -1,143 +1,577 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width,initial-scale=1" name="viewport"/>
-  <title>
-   Политика конфиденциальности - Naberi
-  </title>
-  <link href="styles.css" rel="stylesheet"/>
- </head>
- <body>
-  <div class="wrap">
-   <header>
-    <h1>
-     Политика конфиденциальности
-    </h1>
-    <p>
-     Naberi
-    </p>
-    <div class="langs">
-     <a class="active" href="ru/">
-      Русский
-     </a>
-     <a href="kk/">
-      Қазақша
-     </a>
-     <a href="en/">
-      English
-     </a>
-     <a href="uk/">
-      Українська
-     </a>
-     <a href="uz/">
-      O‘zbekcha
-     </a>
-    </div>
-    <nav>
-     <a href="delete-account.html">
-      Удаление аккаунта / Delete account
-     </a>
-    </nav>
-   </header>
-   <main class="card">
-    <p>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности - Naberi</title>
+<style>
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #151515;
+  background: #f5f7fb;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: #f5f7fb; }
+.wrap { max-width: 940px; margin: 0 auto; padding: 28px 18px 64px; }
+header, .card {
+  background: #fff;
+  border: 1px solid #e3e7ef;
+  border-radius: 24px;
+  box-shadow: 0 6px 24px rgba(20,30,55,.04);
+}
+header { padding: 24px 28px; margin-bottom: 18px; }
+.brand { font-size: 18px; font-weight: 700; margin-bottom: 18px; }
+.langs { display: flex; gap: 10px; flex-wrap: wrap; }
+.lang-btn {
+  min-height: 42px;
+  padding: 9px 14px;
+  border: 1px solid #d9deea;
+  border-radius: 12px;
+  color: #3157b7;
+  background: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.lang-btn:hover { background: #f2f5ff; border-color: #bfc9e8; }
+.lang-btn.active { color: #fff; background: #3157b7; border-color: #3157b7; }
+.card { padding: 30px; }
+.policy { display: none; }
+.policy.active { display: block; }
+h1 { margin: 0 0 22px; font-size: 34px; line-height: 1.15; }
+h2 { margin: 32px 0 12px; font-size: 22px; }
+p, li { font-size: 16px; line-height: 1.68; }
+.actions { margin-top: 24px; }
+.actions a { color: #3157b7; text-decoration: none; font-weight: 600; }
+.actions a:hover { text-decoration: underline; }
+footer { color: #68707d; margin-top: 20px; font-size: 14px; }
+@media (max-width: 600px) {
+  .wrap { padding: 16px 12px 40px; }
+  header, .card { padding: 20px; border-radius: 18px; }
+  h1 { font-size: 28px; }
+  .langs { gap: 8px; }
+  .lang-btn { flex: 1 1 calc(50% - 8px); }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="brand">Naberi Legal</div>
+<div class="langs" aria-label="Language">
+<button type="button" class="lang-btn active" data-lang="ru">Русский</button>
+<button type="button" class="lang-btn" data-lang="kk">Қазақша</button>
+<button type="button" class="lang-btn" data-lang="en">English</button>
+<button type="button" class="lang-btn" data-lang="uk">Українська</button>
+<button type="button" class="lang-btn" data-lang="uz">O‘zbekcha</button>
+</div>
+<div class="actions">
+<a href="delete-account.html">Удаление аккаунта / Delete account</a>
+</div>
+</header>
+
+<main class="card">
+<section class="policy active" id="policy-ru" data-lang="ru"><h1>Политика конфиденциальности</h1>
+<p>
      2 августа 2026 / 2 August 2026
     </p>
-    <h2>
+<h2>
      1. Общие положения
     </h2>
-    <p>
+<p>
      Настоящая Политика конфиденциальности описывает, какие данные собирает и обрабатывает мобильное приложение Naberi, для каких целей они используются, кому могут передаваться, как защищаются и каким образом пользователь может управлять своими данными.
     </p>
-    <h2>
+<h2>
      2. Какие данные могут обрабатываться
     </h2>
-    <p>
+<p>
      Naberi может обрабатывать данные аккаунта, сведения из объявлений, фотографии и файлы, сообщения, данные о местоположении, технические данные устройства, push-токены, сведения об использовании приложения, жалобы, отзывы и обращения в поддержку.
     </p>
-    <h2>
+<h2>
      3. Цели обработки
     </h2>
-    <p>
+<p>
      Данные используются для регистрации и обслуживания аккаунта, публикации и поиска объявлений, работы чатов и уведомлений, показа статистики, модерации, поддержки, предотвращения мошенничества, обеспечения безопасности и улучшения Сервиса.
     </p>
-    <h2>
+<h2>
      4. Правовые основания
     </h2>
-    <p>
+<p>
      Данные обрабатываются для исполнения соглашения с пользователем, на основании согласия, для выполнения законных обязанностей и защиты законных интересов Оператора и пользователей.
     </p>
-    <h2>
+<h2>
      5. Публикация данных
     </h2>
-    <p>
+<p>
      Имя, фотография профиля, объявления, изображения, город или регион, рейтинг и отзывы могут быть видны другим пользователям. Не публикуйте лишние персональные данные.
     </p>
-    <h2>
+<h2>
      6. Передача третьим лицам
     </h2>
-    <p>
+<p>
      Оператор не продаёт персональные данные. Данные могут передаваться Google Firebase, Yandex MapKit, Google Play, поставщикам серверной инфраструктуры и другим подрядчикам только в объёме, необходимом для работы Naberi.
     </p>
-    <h2>
+<h2>
      7. Международная передача
     </h2>
-    <p>
+<p>
      Данные могут храниться или обрабатываться за пределами страны пользователя. Оператор принимает разумные меры защиты.
     </p>
-    <h2>
+<h2>
      8. Хранение
     </h2>
-    <p>
+<p>
      Данные хранятся столько, сколько необходимо для работы Сервиса и соблюдения закона. Технические журналы, резервные копии и сведения безопасности могут храниться ограниченный срок.
     </p>
-    <h2>
+<h2>
      9. Удаление аккаунта
     </h2>
-    <p>
+<p>
      Удалить аккаунт можно в приложении: Настройки → Удалить аккаунт. В течение 30 дней аккаунт можно восстановить. После этого он и связанные данные удаляются, кроме сведений, которые необходимо сохранить по закону, для безопасности или разрешения споров.
     </p>
-    <h2>
+<h2>
      10. Права пользователя
     </h2>
-    <p>
+<p>
      Пользователь может запросить доступ, исправление, удаление, ограничение обработки, отзыв согласия и копию данных, если это предусмотрено применимым законодательством.
     </p>
-    <h2>
+<h2>
      11. Несовершеннолетние
     </h2>
-    <p>
+<p>
      Naberi не предназначен для самостоятельного использования детьми младше возраста, с которого законодательство их страны разрешает самостоятельно соглашаться на обработку персональных данных.
     </p>
-    <h2>
+<h2>
      12. Безопасность
     </h2>
-    <p>
+<p>
      Оператор применяет защищённые соединения, ограничение доступа, аутентификацию, резервное копирование и мониторинг подозрительной активности.
     </p>
-    <h2>
+<h2>
      13. Разрешения устройства
     </h2>
-    <p>
+<p>
      Приложение может запрашивать доступ к местоположению, камере, галерее, уведомлениям и файлам только для работы соответствующих функций.
     </p>
-    <h2>
+<h2>
      14. Изменения Политики
     </h2>
-    <p>
+<p>
      Политика может обновляться при изменении законодательства, функций Naberi или способов обработки данных.
     </p>
-    <h2>
+<h2>
      15. Контакты
     </h2>
-    <p>
+<p>
      По вопросам конфиденциальности, обработки и удаления персональных данных: karsky23@gmail.com
     </p>
-   </main>
-   <footer>
-    © 2026 Naberi
-   </footer>
-  </div>
- </body>
+</section>
+<section class="policy" id="policy-kk" data-lang="kk"><h1>Құпиялық саясаты</h1>
+<p>
+     2 августа 2026 / 2 August 2026
+    </p>
+<h2>
+     1. Жалпы ережелер
+    </h2>
+<p>
+     Осы Құпиялық саясаты Naberi мобильді қолданбасы қандай деректерді жинайтынын және өңдейтінін, оларды қандай мақсатта пайдаланатынын, кімге бере алатынын, қалай қорғайтынын және пайдаланушы өз деректерін қалай басқара алатынын сипаттайды.
+    </p>
+<h2>
+     2. Қандай деректер өңделуі мүмкін
+    </h2>
+<p>
+     Naberi аккаунт деректерін, хабарландырулардағы мәліметтерді, фотосуреттер мен файлдарды, хабарламаларды, орналасқан жер деректерін, құрылғының техникалық деректерін, push-токендерді, қолданбаны пайдалану туралы мәліметтерді, шағымдарды, пікірлерді және қолдау қызметіне өтініштерді өңдеуі мүмкін.
+    </p>
+<h2>
+     3. Өңдеу мақсаттары
+    </h2>
+<p>
+     Деректер аккаунтты тіркеу және қызмет көрсету, хабарландыруларды жариялау және іздеу, чаттар мен хабарландырулардың жұмысы, статистика көрсету, модерация, қолдау, алаяқтықтың алдын алу, қауіпсіздік және Сервисті жақсарту үшін пайдаланылады.
+    </p>
+<h2>
+     4. Құқықтық негіздер
+    </h2>
+<p>
+     Деректер пайдаланушымен келісімді орындау, келісім негізінде, заң талаптарын орындау және Оператор мен пайдаланушылардың заңды мүдделерін қорғау үшін өңделеді.
+    </p>
+<h2>
+     5. Деректердің жария болуы
+    </h2>
+<p>
+     Аты, профиль суреті, хабарландырулар, суреттер, қала немесе аймақ, рейтинг пен пікірлер басқа пайдаланушыларға көрінуі мүмкін. Артық жеке деректерді жарияламаңыз.
+    </p>
+<h2>
+     6. Үшінші тұлғаларға беру
+    </h2>
+<p>
+     Оператор жеке деректерді сатпайды. Деректер Naberi жұмысына қажетті көлемде Google Firebase, Yandex MapKit, Google Play, серверлік инфрақұрылым жеткізушілеріне және басқа мердігерлерге берілуі мүмкін.
+    </p>
+<h2>
+     7. Халықаралық беру
+    </h2>
+<p>
+     Деректер пайдаланушы елінен тыс жерде сақталуы немесе өңделуі мүмкін. Оператор ақылға қонымды қорғау шараларын қолданады.
+    </p>
+<h2>
+     8. Сақтау
+    </h2>
+<p>
+     Деректер Сервистің жұмысы және заң талаптарын орындау үшін қажет мерзімде сақталады. Техникалық журналдар, резервтік көшірмелер және қауіпсіздік деректері шектеулі мерзім сақталуы мүмкін.
+    </p>
+<h2>
+     9. Аккаунтты жою
+    </h2>
+<p>
+     Аккаунтты қолданбада жоюға болады: Баптаулар → Аккаунтты жою. 30 күн ішінде аккаунтты қалпына келтіруге болады. Осы мерзімнен кейін аккаунт пен байланысты деректер жойылады, заң, қауіпсіздік немесе дауларды шешу үшін сақталуы тиіс мәліметтерден басқа.
+    </p>
+<h2>
+     10. Пайдаланушы құқықтары
+    </h2>
+<p>
+     Қолданылатын заңнамада көзделсе, пайдаланушы деректерге қол жеткізуді, түзетуді, жоюды, өңдеуді шектеуді, келісімді қайтарып алуды және деректер көшірмесін сұрай алады.
+    </p>
+<h2>
+     11. Кәмелетке толмағандар
+    </h2>
+<p>
+     Naberi өз елінің заңнамасы дербес деректерді өңдеуге келісуге рұқсат ететін жасқа толмаған балалардың өз бетінше пайдалануына арналмаған.
+    </p>
+<h2>
+     12. Қауіпсіздік
+    </h2>
+<p>
+     Оператор қорғалған қосылымдарды, қолжетімділікті шектеуді, аутентификацияны, резервтік көшіруді және күмәнді белсенділікті бақылауды қолданады.
+    </p>
+<h2>
+     13. Құрылғы рұқсаттары
+    </h2>
+<p>
+     Қолданба тиісті функциялардың жұмысы үшін орналасқан жерге, камераға, галереяға, хабарландыруларға және файлдарға қолжетімділікті сұрауы мүмкін.
+    </p>
+<h2>
+     14. Саясаттағы өзгерістер
+    </h2>
+<p>
+     Заңнама, Naberi функциялары немесе деректерді өңдеу тәсілдері өзгерген кезде Саясат жаңартылуы мүмкін.
+    </p>
+<h2>
+     15. Байланыс
+    </h2>
+<p>
+     Құпиялық, деректерді өңдеу және жою мәселелері бойынша: karsky23@gmail.com
+    </p>
+</section>
+<section class="policy" id="policy-en" data-lang="en"><h1>Privacy Policy</h1>
+<p>
+     2 августа 2026 / 2 August 2026
+    </p>
+<h2>
+     1. General provisions
+    </h2>
+<p>
+     This Privacy Policy explains what data the Naberi mobile application collects and processes, why it is used, who it may be shared with, how it is protected, and how users can manage their data.
+    </p>
+<h2>
+     2. Data we may process
+    </h2>
+<p>
+     Naberi may process account data, listing details, photos and files, messages, location data, device and technical information, push tokens, usage data, complaints, reviews, and support requests.
+    </p>
+<h2>
+     3. Purposes of processing
+    </h2>
+<p>
+     Data is used to register and maintain accounts, publish and search listings, operate chats and notifications, display statistics, moderate content, provide support, prevent fraud, maintain security, and improve the Service.
+    </p>
+<h2>
+     4. Legal bases
+    </h2>
+<p>
+     Data is processed to perform the user agreement, on the basis of consent, to comply with legal obligations, and to protect the legitimate interests of the Operator and users.
+    </p>
+<h2>
+     5. Public information
+    </h2>
+<p>
+     Your name, profile photo, listings, images, city or region, rating, and reviews may be visible to other users. Do not publish unnecessary personal information.
+    </p>
+<h2>
+     6. Sharing with third parties
+    </h2>
+<p>
+     The Operator does not sell personal data. Data may be shared with Google Firebase, Yandex MapKit, Google Play, hosting providers, and other contractors only to the extent needed to operate Naberi.
+    </p>
+<h2>
+     7. International transfers
+    </h2>
+<p>
+     Data may be stored or processed outside the user's country. The Operator applies reasonable safeguards.
+    </p>
+<h2>
+     8. Retention
+    </h2>
+<p>
+     Data is retained for as long as needed to operate the Service and comply with law. Technical logs, backups, and security information may be kept for a limited period.
+    </p>
+<h2>
+     9. Account deletion
+    </h2>
+<p>
+     You can delete your account in the app: Settings → Delete account. The account can be restored within 30 days. After that, the account and related data are deleted, except information that must be retained by law, for security, or to resolve disputes.
+    </p>
+<h2>
+     10. User rights
+    </h2>
+<p>
+     Where provided by applicable law, users may request access, correction, deletion, restriction of processing, withdrawal of consent, and a copy of their data.
+    </p>
+<h2>
+     11. Minors
+    </h2>
+<p>
+     Naberi is not intended for independent use by children below the age at which the laws of their country allow them to consent to personal data processing.
+    </p>
+<h2>
+     12. Security
+    </h2>
+<p>
+     The Operator uses secure connections, access controls, authentication, backups, and monitoring of suspicious activity.
+    </p>
+<h2>
+     13. Device permissions
+    </h2>
+<p>
+     The app may request access to location, camera, gallery, notifications, and files only to provide the corresponding features.
+    </p>
+<h2>
+     14. Policy changes
+    </h2>
+<p>
+     This Policy may be updated when laws, Naberi features, or data processing practices change.
+    </p>
+<h2>
+     15. Contact
+    </h2>
+<p>
+     For privacy, data processing, and deletion requests: karsky23@gmail.com
+    </p>
+</section>
+<section class="policy" id="policy-uk" data-lang="uk"><h1>Політика конфіденційності</h1>
+<p>
+     2 августа 2026 / 2 August 2026
+    </p>
+<h2>
+     1. Загальні положення
+    </h2>
+<p>
+     Ця Політика конфіденційності пояснює, які дані збирає та обробляє мобільний застосунок Naberi, з якою метою вони використовуються, кому можуть передаватися, як захищаються та як користувач може керувати своїми даними.
+    </p>
+<h2>
+     2. Які дані можуть оброблятися
+    </h2>
+<p>
+     Naberi може обробляти дані облікового запису, відомості з оголошень, фотографії та файли, повідомлення, дані про місцезнаходження, технічні дані пристрою, push-токени, відомості про використання застосунку, скарги, відгуки та звернення до підтримки.
+    </p>
+<h2>
+     3. Цілі обробки
+    </h2>
+<p>
+     Дані використовуються для реєстрації та обслуговування облікового запису, публікації й пошуку оголошень, роботи чатів і сповіщень, показу статистики, модерації, підтримки, запобігання шахрайству, забезпечення безпеки та покращення Сервісу.
+    </p>
+<h2>
+     4. Правові підстави
+    </h2>
+<p>
+     Дані обробляються для виконання угоди з користувачем, на підставі згоди, для виконання законних обов’язків і захисту законних інтересів Оператора та користувачів.
+    </p>
+<h2>
+     5. Публічність даних
+    </h2>
+<p>
+     Ім’я, фотографія профілю, оголошення, зображення, місто або регіон, рейтинг і відгуки можуть бути видимі іншим користувачам. Не публікуйте зайві персональні дані.
+    </p>
+<h2>
+     6. Передача третім особам
+    </h2>
+<p>
+     Оператор не продає персональні дані. Дані можуть передаватися Google Firebase, Yandex MapKit, Google Play, постачальникам серверної інфраструктури та іншим підрядникам лише в обсязі, необхідному для роботи Naberi.
+    </p>
+<h2>
+     7. Міжнародна передача
+    </h2>
+<p>
+     Дані можуть зберігатися або оброблятися за межами країни користувача. Оператор застосовує розумні заходи захисту.
+    </p>
+<h2>
+     8. Зберігання
+    </h2>
+<p>
+     Дані зберігаються стільки, скільки потрібно для роботи Сервісу та дотримання закону. Технічні журнали, резервні копії та відомості безпеки можуть зберігатися обмежений строк.
+    </p>
+<h2>
+     9. Видалення облікового запису
+    </h2>
+<p>
+     Видалити обліковий запис можна в застосунку: Налаштування → Видалити обліковий запис. Протягом 30 днів його можна відновити. Після цього обліковий запис і пов’язані дані видаляються, крім відомостей, які потрібно зберігати за законом, для безпеки або вирішення спорів.
+    </p>
+<h2>
+     10. Права користувача
+    </h2>
+<p>
+     Якщо це передбачено застосовним законодавством, користувач може запросити доступ, виправлення, видалення, обмеження обробки, відкликання згоди та копію своїх даних.
+    </p>
+<h2>
+     11. Неповнолітні
+    </h2>
+<p>
+     Naberi не призначений для самостійного використання дітьми, молодшими за вік, з якого законодавство їхньої країни дозволяє самостійно погоджуватися на обробку персональних даних.
+    </p>
+<h2>
+     12. Безпека
+    </h2>
+<p>
+     Оператор використовує захищені з’єднання, обмеження доступу, автентифікацію, резервне копіювання та моніторинг підозрілої активності.
+    </p>
+<h2>
+     13. Дозволи пристрою
+    </h2>
+<p>
+     Застосунок може запитувати доступ до місцезнаходження, камери, галереї, сповіщень і файлів лише для роботи відповідних функцій.
+    </p>
+<h2>
+     14. Зміни Політики
+    </h2>
+<p>
+     Політика може оновлюватися у разі змін законодавства, функцій Naberi або способів обробки даних.
+    </p>
+<h2>
+     15. Контакти
+    </h2>
+<p>
+     З питань конфіденційності, обробки та видалення даних: karsky23@gmail.com
+    </p>
+</section>
+<section class="policy" id="policy-uz" data-lang="uz"><h1>Maxfiylik siyosati</h1>
+<p>
+     2 августа 2026 / 2 August 2026
+    </p>
+<h2>
+     1. Umumiy qoidalar
+    </h2>
+<p>
+     Ushbu Maxfiylik siyosati Naberi mobil ilovasi qanday ma’lumotlarni yig‘ishi va qayta ishlashi, ular nima maqsadda ishlatilishi, kimlarga berilishi mumkinligi, qanday himoyalanishi va foydalanuvchi o‘z ma’lumotlarini qanday boshqarishi mumkinligini tushuntiradi.
+    </p>
+<h2>
+     2. Qanday ma’lumotlar qayta ishlanishi mumkin
+    </h2>
+<p>
+     Naberi akkaunt ma’lumotlari, e’lon tafsilotlari, suratlar va fayllar, xabarlar, joylashuv ma’lumotlari, qurilmaning texnik ma’lumotlari, push-tokenlar, ilovadan foydalanish ma’lumotlari, shikoyatlar, sharhlar va yordam so‘rovlarini qayta ishlashi mumkin.
+    </p>
+<h2>
+     3. Qayta ishlash maqsadlari
+    </h2>
+<p>
+     Ma’lumotlar akkauntni ro‘yxatdan o‘tkazish va yuritish, e’lonlarni joylashtirish va qidirish, chat va bildirishnomalar ishlashi, statistika ko‘rsatish, moderatsiya, yordam, firibgarlikning oldini olish, xavfsizlik va Servisni yaxshilash uchun ishlatiladi.
+    </p>
+<h2>
+     4. Huquqiy asoslar
+    </h2>
+<p>
+     Ma’lumotlar foydalanuvchi bilan kelishuvni bajarish, rozilik asosida, qonuniy majburiyatlarni bajarish hamda Operator va foydalanuvchilarning qonuniy manfaatlarini himoya qilish uchun qayta ishlanadi.
+    </p>
+<h2>
+     5. Ochiq ma’lumotlar
+    </h2>
+<p>
+     Ism, profil rasmi, e’lonlar, tasvirlar, shahar yoki hudud, reyting va sharhlar boshqa foydalanuvchilarga ko‘rinishi mumkin. Ortiqcha shaxsiy ma’lumotlarni e’lon qilmang.
+    </p>
+<h2>
+     6. Uchinchi shaxslarga berish
+    </h2>
+<p>
+     Operator shaxsiy ma’lumotlarni sotmaydi. Ma’lumotlar Naberi ishlashi uchun zarur hajmda Google Firebase, Yandex MapKit, Google Play, server infratuzilmasi provayderlari va boshqa pudratchilarga berilishi mumkin.
+    </p>
+<h2>
+     7. Xalqaro uzatish
+    </h2>
+<p>
+     Ma’lumotlar foydalanuvchi mamlakatidan tashqarida saqlanishi yoki qayta ishlanishi mumkin. Operator oqilona himoya choralarini qo‘llaydi.
+    </p>
+<h2>
+     8. Saqlash
+    </h2>
+<p>
+     Ma’lumotlar Servis ishlashi va qonun talablariga rioya qilish uchun zarur muddat saqlanadi. Texnik jurnallar, zaxira nusxalar va xavfsizlik ma’lumotlari cheklangan muddat saqlanishi mumkin.
+    </p>
+<h2>
+     9. Akkauntni o‘chirish
+    </h2>
+<p>
+     Akkauntni ilovada o‘chirish mumkin: Sozlamalar → Akkauntni o‘chirish. 30 kun ichida akkauntni tiklash mumkin. Shundan so‘ng akkaunt va bog‘liq ma’lumotlar o‘chiriladi, qonun, xavfsizlik yoki nizolarni hal qilish uchun saqlanishi zarur bo‘lgan ma’lumotlar bundan mustasno.
+    </p>
+<h2>
+     10. Foydalanuvchi huquqlari
+    </h2>
+<p>
+     Amaldagi qonunchilikda nazarda tutilgan bo‘lsa, foydalanuvchi ma’lumotlarga kirish, tuzatish, o‘chirish, qayta ishlashni cheklash, rozilikni bekor qilish va ma’lumotlar nusxasini so‘rashi mumkin.
+    </p>
+<h2>
+     11. Voyaga yetmaganlar
+    </h2>
+<p>
+     Naberi o‘z mamlakati qonunlari shaxsiy ma’lumotlarni qayta ishlashga mustaqil rozilik berishga ruxsat etadigan yoshga yetmagan bolalar tomonidan mustaqil foydalanish uchun mo‘ljallanmagan.
+    </p>
+<h2>
+     12. Xavfsizlik
+    </h2>
+<p>
+     Operator himoyalangan ulanishlar, kirishni cheklash, autentifikatsiya, zaxira nusxalash va shubhali faollik monitoringidan foydalanadi.
+    </p>
+<h2>
+     13. Qurilma ruxsatlari
+    </h2>
+<p>
+     Ilova tegishli funksiyalar ishlashi uchun joylashuv, kamera, galereya, bildirishnomalar va fayllarga kirishni so‘rashi mumkin.
+    </p>
+<h2>
+     14. Siyosatdagi o‘zgarishlar
+    </h2>
+<p>
+     Qonunchilik, Naberi funksiyalari yoki ma’lumotlarni qayta ishlash usullari o‘zgarganda Siyosat yangilanishi mumkin.
+    </p>
+<h2>
+     15. Aloqa
+    </h2>
+<p>
+     Maxfiylik, ma’lumotlarni qayta ishlash va o‘chirish masalalari bo‘yicha: karsky23@gmail.com
+    </p>
+</section>
+</main>
+
+<footer>© 2026 Naberi</footer>
+</div>
+
+<script>
+(function () {
+  const buttons = document.querySelectorAll('.lang-btn');
+  const policies = document.querySelectorAll('.policy');
+
+  function showLanguage(code, updateHash = true) {
+    buttons.forEach(btn => btn.classList.toggle('active', btn.dataset.lang === code));
+    policies.forEach(section => section.classList.toggle('active', section.dataset.lang === code));
+    document.documentElement.lang = code;
+    const active = document.querySelector('.policy.active h1');
+    document.title = (active ? active.textContent : 'Privacy Policy') + ' - Naberi';
+    if (updateHash) history.replaceState(null, '', '#' + code);
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => showLanguage(btn.dataset.lang));
+  });
+
+  const initial = location.hash.replace('#', '');
+  showLanguage(['ru','kk','en','uk','uz'].includes(initial) ? initial : 'ru', false);
+})();
+</script>
+</body>
 </html>
